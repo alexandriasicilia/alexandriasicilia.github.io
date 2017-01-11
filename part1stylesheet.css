@@ -1,0 +1,250 @@
+#q1 {
+    background-image: url('cpus.jpg');
+    background-repeat: 1-repeat;
+    background-attachment: fixed;
+}
+#q2 {
+    background-image: url('pyramid.jpg');
+    background-repeat: 1-repeat;
+    background-attachment: fixed;
+}
+#q3 {
+    background-image: url('programming.jpg');
+    background-repeat: 1-repeat;
+    background-attachment: fixed;
+}
+#q4 {
+    background-image: url('clouds.jpg');
+    background-repeat: 1-repeat;
+    background-attachment: fixed;
+}  
+#q5 {
+    background-image: url('html.jpg');
+    background-repeat: 1-repeat;
+    background-attachment: fixed;
+}
+#q6 {
+    background-image: url('table.jpg');
+    background-repeat: 1-repeat;
+    background-attachment: fixed;
+}
+#q7 {
+    background-image: url('cssb.jpg');
+    background-repeat: 1-repeat;
+    background-attachment: fixed;
+}
+#q8 {
+    background-image: url('cssp.jpg');
+    background-repeat: 1-repeat;
+    background-attachment: fixed;
+}
+#q9 {
+    background-image: url('js1.jpg');
+    background-repeat: 1-repeat;
+    background-attachment: fixed;
+}
+#q10 {
+    background-image: url('js2.jpg');
+    background-repeat: 1-repeat;
+    background-attachment: fixed;
+}
+#fp {
+    background-image: url('balloons.gif');
+    background-repeat: 1-repeat;
+    background-attachment: fixed;
+}
+#h1 {
+    text-align: center;
+    color: #4B0082;
+    font-family: cursive, arial;
+    font-size: 30px;
+}
+#t1 {
+    text-align: left;
+    color: #FF69B4;
+    font-family: cursive, arial;
+    font-size: 25px;
+}
+#l1 {
+    text-align: left;
+    color: #17CDFA;
+    font-family: arial;
+    font-size: 22px;
+}
+
+#h2 {
+    text-align: center;
+    color: #4B0082;
+    font-family: cursive, arial;
+    font-size: 30px;
+}
+#t2 {
+    text-align: left;
+    color: #FF69B4;
+    font-family: cursive, arial;
+    font-size: 25px;
+}
+#l2 {
+    text-align: left;
+    color: #AD09D4;
+    font-family: arial;
+    font-size: 22px;
+}
+
+#h3 {
+    text-align: center;
+    color: #4B0082;
+    font-family: cursive, arial;
+    font-size: 30px;
+}
+#t3 {
+    text-align: left;
+    color: #FF69B4;
+    font-family: cursive, arial;
+    font-size: 25px;
+}
+#l3 {
+    text-align: left;
+    color: #FFB6C1;
+    font-family: arial;
+    font-size: 22px;
+}
+
+#h4 {
+    text-align: center;
+    color: #4B0082;
+    font-family: cursive, arial;
+    font-size: 30px;
+}
+#t4 {
+    text-align: left;
+    color: #0000CD;
+    font-family: cursive, arial;
+    font-size: 25px;
+}
+#l4 {
+    text-align: left;
+    color: #DC143C;
+    font-family: arial;
+    font-size: 22px;
+}
+
+#h5 {
+    text-align: center;
+    color: #B0FFFF;
+    font-family: cursive, arial;
+    font-size: 30px;
+}
+#t5 {
+    text-align: left;
+    color: #20EF20;
+    font-family: cursive, arial;
+    font-size: 25px;
+}
+#l5 {
+    text-align: left;
+    color: #C8B8FF;
+    font-family: arial;
+    font-size: 22px;
+}
+
+#h6 {
+    text-align: center;
+    color: #B0FFFF;
+    font-family: cursive, arial;
+    font-size: 30px;
+}
+#t6 {
+    text-align: left;
+    color: #20EF20;
+    font-family: cursive, arial;
+    font-size: 25px;
+}
+#l6 {
+    text-align: left;
+    color: #FF69B4;
+    font-family: arial;
+}
+
+#h7 {
+    text-align: center;
+    color: #00FFFF;
+    font-family: cursive, arial;
+    font-size: 30px;
+}
+#t7 {
+    text-align: left;
+    color: #C0B8EF;
+    font-family: cursive, arial;
+    font-size: 25px;
+}
+#l7 {
+    text-align: left;
+    color: #FF69B4;
+    font-family: arial;
+}
+
+#h8 {
+    text-align: center;
+    color: #4B0082;
+    font-family: cursive, arial;
+    font-size: 30px;
+}
+#t8 {
+    text-align: left;
+    color: #C71585;
+    font-family: cursive, arial;
+    font-size: 25px;
+}
+#l8 {
+    text-align: left;
+    color: #191970;
+    font-family: arial;
+}
+
+#h9{
+    text-align: center;
+    color: #4B0082;
+    font-family: cursive, arial;
+    font-size: 30px;
+}
+#t9 {
+    text-align: left;
+    color: #C71585;
+    font-family: cursive, arial;
+    font-size: 25px;
+}
+#l9 {
+    text-align: left;
+    color: #191970;
+    font-family: arial;
+}
+
+#h10{
+    text-align: center;
+    color: #4B0082;
+    font-family: cursive, arial;
+    font-size: 30px;
+}
+#t10 {
+    text-align: left;
+    color: #C71585;
+    font-family: cursive, arial;
+    font-size: 25px;
+}
+#l10 {
+    text-align: left;
+    color: #191970;
+    font-family: arial;
+}
+
+#fh {
+    width: 100%;
+}
+#fc {
+    text-align: center;
+    color: #191970;
+    font-family: arial;
+}
+
+   

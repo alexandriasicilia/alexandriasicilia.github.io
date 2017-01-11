@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="part2stylesheet.css">
+		<title>Question 10</title>
+	</head>
+
+<body id="q1">
+
+<h1 id="h1"><b>Disney Question #10</b></h1>
+<h2 id="t1"><b>What does princess Tiana want to open?</b></h2>
+
+<ol id="l1" type="a"><b>
+	<li>A clothing store</li>
+	<li>A restaurant</li>
+	<li>A hotel</li>
+	<li>A singing school</li>
+</b></ol>
+
+<button id="click" onclick="myFunction(); document.getElementById('click').style.display='none'; document.getElementById('next').style.display='block';">enter answer</button><button onclick="window.location='testLast.html';" id="next" style="display:none">See results</button>
+
+<center><img src="clear.jpg" id="a1"></center>
+<h2 id="a2"></h2>
+
+<script>
+function myFunction() {
+    var person = prompt("Please enter your answer");
+    
+    if (person === "b") {
+document.getElementById('a1').src='right.gif'
+    }
+    else {
+        document.getElementById("a2").innerHTML =
+        "Sorry, you are wrong. The correct answer was 'b'."
+    }
+}
+</script>
