@@ -1,5 +1,5 @@
 #q1 {
-    background-image: url('mickeycharacters.jpg');
+    background-image: url('images/mickeycharacters.jpg');
     background-repeat: 1-repeat;
     background-attachment: fixed;
 }
@@ -10,25 +10,24 @@
     font-family: cursive, arial;
     font-size: 30px;
 }
-#t1 {
+#question {
     text-align: left;
     color: #EF19D4;
     font-family: cursive, arial;
     font-size: 25px;
 }
-#l1 {
+#a1 {
+    width:100%;
+} 
+h3 {
     text-align: left;
     color: #05E0F9;
     font-family: arial;
     font-size: 22px;
 }
-#a1 {
-    width:100%;
+#correct {  
+    text-align: left;
+    color: #8A2BE2;
+    font-family: arial;
+    font-size: 20px;
 }
-#a2 {
-    text-align: center;
-    color: #9370DB;
-    font-family: cursive, arial;
-    font-size: 25px;
-    background-color: #DFFAFA;
-}   

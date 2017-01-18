@@ -19,7 +19,7 @@
 
 <button id="click" onclick="myFunction(); document.getElementById('click').style.display='none'; document.getElementById('next').style.display='block';">enter answer</button><button onclick="window.location='test10.html';" id="next" style="display:none">next question</button>
 
-<center><img src="clear.jpg" id="a1"></center>
+<center><img src="images/clear.jpg" id="a1"></center>
 <h2 id="a2"></h2>
 
 <script>
@@ -27,7 +27,7 @@ function myFunction() {
     var person = prompt("Please enter your answer");
     
     if (person === "d") {
-document.getElementById('a1').src='right.gif'
+document.getElementById('a1').src='images/right.gif'
     }
     else {
         document.getElementById("a2").innerHTML =

@@ -1,0 +1,369 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Disney Trivia</title>
+        <link rel="stylesheet" type="text/css" href="part2stylesheet.css">
+    <script>
+            var n = 0
+            var i = 1
+            var o = 0
+            
+            
+            function support(){
+                y = document.getElementById("qans").value
+                var yy=y.toUpperCase();
+                x = document.getElementById("question").value
+                
+                
+                if (o===0){
+                    y = document.getElementById("qans").value
+                    document.view.qscore.value=n
+                    if(yy==="B"){
+                        
+                        document.getElementById('a1').src='images/right.gif';
+                        n=n+1
+                    }
+                    
+                    else {
+                        document.getElementById('a1').src="images/wrong.gif";
+                        document.getElementById('correct').innerHTML="the right answer was 'b'."
+                        
+                        n=n
+                        
+                    }
+                    
+                }
+                
+                 else if (o===1){
+                    y = document.getElementById("qans").value
+                    document.view.qscore.value=n
+                    if(yy==="D"){
+                                              
+                        document.getElementById('a1').src='images/right.gif';                                              
+                        n=n+1                        
+                        
+                    }                   
+                    
+                    else {                        
+                        
+                        document.getElementById('a1').src="images/wrong.gif";
+                        document.getElementById('correct').innerHTML="the right answer was 'd'."
+                        n=n
+                         
+                    }
+                     
+                }
+                
+                else if (o===2){
+                    y = document.getElementById("qans").value
+                    document.view.qscore.value=n
+                    
+                    if(yy==="A"){
+                        
+                        document.getElementById('a1').src='images/right.gif';                                              
+                        n=n+1                        
+                        
+                    }                   
+                    
+                    else {                        
+                        
+                        document.getElementById('a1').src="images/wrong.gif";
+                        document.getElementById('correct').innerHTML="the right answer was 'a'."
+                        n=n
+                            
+                    }
+                      
+                }
+                
+                else if (o===3){
+                    y = document.getElementById("qans").value
+                    document.view.qscore.value=n
+                    if(yy==="C"){
+                        
+                        document.getElementById('a1').src='images/right.gif';                                              
+                        n=n+1                        
+                        
+                    }                   
+                    
+                    else {                        
+                        
+                        document.getElementById('a1').src="images/wrong.gif";
+                        document.getElementById('correct').innerHTML="the right answer was 'c'."
+                        n=n
+                            
+                    }
+                      
+                }
+                
+                else if (o===4){
+                    y = document.getElementById("qans").value
+                    document.view.qscore.value=n
+                    if(yy==="C"){
+                        
+                        document.getElementById('a1').src='images/right.gif';                                              
+                        n=n+1                        
+                        
+                    }                   
+                    
+                    else {                        
+                        
+                        document.getElementById('a1').src="images/wrong.gif";
+                        document.getElementById('correct').innerHTML="the right answer was 'c'."
+                        n=n
+                            
+                    }
+                      
+                }
+                
+                else if (o===5){
+                    y = document.getElementById("qans").value
+                    document.view.qscore.value=n
+                    if(yy==="A"){
+                        
+                        document.getElementById('a1').src='images/right.gif';                                              
+                        n=n+1                        
+                        
+                    }                   
+                    
+                    else {                        
+                        
+                        document.getElementById('a1').src="images/wrong.gif";
+                        document.getElementById('correct').innerHTML="the right answer was 'a'."
+                        n=n
+                            
+                    }
+                      
+                }
+                
+                else if (o===6){
+                    y = document.getElementById("qans").value
+                    document.view.qscore.value=n
+                    if(yy==="B"){
+                        
+                        document.getElementById('a1').src='images/right.gif';                                              
+                        n=n+1                        
+                        
+                    }                   
+                    
+                    else {                        
+                        
+                        document.getElementById('a1').src="images/wrong.gif";
+                        document.getElementById('correct').innerHTML="the right answer was 'b'."
+                        n=n
+                            
+                    }
+                      
+                }
+                
+                else if (o===7){
+                    y = document.getElementById("qans").value
+                    document.view.qscore.value=n
+                    if(yy==="D"){
+                        
+                        document.getElementById('a1').src='images/right.gif';                                              
+                        n=n+1                        
+                        
+                    }                   
+                    
+                    else {                        
+                        
+                        document.getElementById('a1').src="images/wrong.gif";
+                        document.getElementById('correct').innerHTML="the right answer was 'd'."
+                        n=n
+                            
+                    }
+                      
+                }
+                else if (o===8){
+                    y = document.getElementById("qans").value
+                    document.view.qscore.value=n
+                    if(yy==="D"){
+                        
+                        document.getElementById('a1').src='images/right.gif';                                              
+                        n=n+1                        
+                        
+                    }                   
+                    
+                    else {                        
+                        
+                        document.getElementById('a1').src="images/wrong.gif";
+                        document.getElementById('correct').innerHTML="the right answer was 'd'."
+                        n=n
+                            
+                    }
+                      
+                }
+                else if (o===9){
+                    
+                    
+                    y = document.getElementById("qans").value
+                    
+                    
+                    document.view.qscore.value=n
+                    
+                    
+                    if(yy==="B"){
+                        
+                        document.getElementById('a1').src='images/right.gif';                                              
+                        n=n+1                        
+                        
+                    }                   
+                    
+                    else {                        
+                        
+                        document.getElementById('a1').src="images/wrong.gif";
+                        document.getElementById('correct').innerHTML="the right answer was 'd'."
+                        n=n
+                            
+                    }
+                      
+                }
+                
+                o++;
+                   
+            }
+        
+        function main(){
+            
+            if (i===1){
+                document.view.qnum.value=i;
+                document.view.qscore.value=0;
+                
+                document.view.question.value ="Which Disney movie has the character Prince Charming?\na) Cinderella\nb) Snow White\nc) Tangled\nd) Sleeping Beauty";
+                
+                document.view.qans.value=""
+                 
+            }
+            
+            else if (i===2){
+                document.view.qnum.value=i;	
+                
+                document.view.question.value ="What colour is Belle's gown?\na) Blue\nb) White\nc) Pink\nd) Yellow";
+                
+                document.view.qans.value=""
+                   
+            }
+            
+            else if (i===3){
+                document.view.qnum.value=i;
+
+                document.view.question.value ="What is Sleeping Beauty's name?\na) Aurora\nb) Gizelle\nc) Bella\nd) Anastasia";
+                
+                document.view.qans.value=""
+                 
+            }
+            
+            else if (i===4){
+                document.view.qnum.value=i;
+                
+                document.view.question.value ="Which Disney movie does NOT have a \"side-kick\"?\na) Frozen\nb) Mulan\nc) Cinderella\nd) The Little Mermaid";
+                
+                document.view.qans.value=""
+                 
+            }
+            
+            else if (i===5){
+                document.view.qnum.value=i;
+                
+                document.view.question.value ="Which Disney movie does NOT have a heroine?\na) Brave\nb) Mulan\nc) Snow White\nd) Frozen";
+                
+                document.view.qans.value=""
+                
+            }
+
+            else if (i===6){
+                document.view.qnum.value=i;
+                
+                document.view.question.value ="What is the name of the teacup in Beauty and the Beast?\na) Chip Potts\nb) Mr.Chip\nc) Chippy Potts\nd) Monsieur Potts";
+                
+                document.view.qans.value=""
+                     
+            }
+            
+            else if (i===7){
+                document.view.qnum.value=i;
+                
+                document.view.question.value ="Which Disney princess attends Elsa's coronation in Frozen?\na) Snow White\nb) Rapunzel\nc) Belle\nd) Cinderella";
+                
+                document.view.qans.value=""
+                
+            }
+            
+            else if (i===8){
+                document.view.qnum.value=i;
+                
+                document.view.question.value ="Which is not a Disney movie?\na) Alice in Wonderland\nb) The Little Mermaid\nc) Tangled\nd) Minions";
+                
+                document.view.qans.value=""
+                  
+            }
+            
+            else if (i===9){
+                document.view.qnum.value=i;
+                
+                document.view.question.value ="What does the Evil Queen use to make Snow White fall into an eternal sleep?\na) Strawberry\nb) Mango\nc) Pear\nd) Apple";
+                
+                document.view.qans.value=""
+                   
+            }
+            
+            else if (i===10){
+                document.view.qnum.value=i;	
+                
+                document.view.question.value ="What does princess Tiana want to open?\na) A clothing store\nb) A restaurant\nc) A hotel\nd) A singing school";
+                
+                document.view.qans.value=""
+                   
+            }
+            
+            else if (i===11){
+                alert("You got"+ " " + n*10 + "% for this Trivia Quiz")
+                  
+            }
+
+            i++;
+              
+        }
+        
+            </script>
+<style>
+body {
+    background-image: url('images/mickeycharacters.jpg');
+    background-repeat: 1-repeat;
+    background-attachment: fixed;
+}
+</style>       
+        
+    </head>
+ 
+    <body LINK="F7DD5E" VLINK="F7DD5E" ALINK="F7DD5E" onLoad="main()">
+
+        <br>        
+        
+        <FORM name="view">
+            
+            <h1 id="h1"><b>Disney Question #&nbsp;<input type="text" name="qnum" size="3" style="font-size:25px;"></b></h1>
+
+<TEXTAREA COLS=31 ROWS=6 id="question" wrap=virtual"></TEXTAREA>
+<center><img src="images/clear.jpg" id="a1"></center>
+
+<h3 id="correct"><h2>
+
+<h3 id="aa">Answer(enter letter):&nbsp;&nbsp;&nbsp; <input type="text" id="qans" size="2">&nbsp;<input type="button" value="Submit Answer" id="ab" onClick=support();document.getElementById('next').style.display='block';document.getElementById('qans').style.display='none';document.getElementById('aa').style.display='none';document.getElementById('ab').style.display='none'; ></h3>        
+                                       
+                    <h3>Score: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id= "score" name="qscore" size="1">&nbsp;<input type="button" name="go" style="display:none" value=" Next Question" id="next" onClick=main();document.getElementById('aa').style.display='inline';document.getElementById('qans').style.display='inline';document.getElementById('ab').style.display='inline';document.getElementById('a1').src="images/clear.jpg"></h3>                        
+                        
+                        <br>                       
+                        <br>
+
+                            </FORM>
+                            
+                            </body>
+                            
+                            </html>
+                            
+                            
+                            
+                            
+                            
+

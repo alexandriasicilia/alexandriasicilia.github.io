@@ -1,55 +1,55 @@
 #q1 {
-    background-image: url('cpus.jpg');
+    background-image: url('images/cpus.jpg');
     background-repeat: 1-repeat;
     background-attachment: fixed;
 }
 #q2 {
-    background-image: url('pyramid.jpg');
+    background-image: url('images/pyramid.jpg');
     background-repeat: 1-repeat;
     background-attachment: fixed;
 }
 #q3 {
-    background-image: url('programming.jpg');
+    background-image: url('images/programming.jpg');
     background-repeat: 1-repeat;
     background-attachment: fixed;
 }
 #q4 {
-    background-image: url('clouds.jpg');
+    background-image: url('images/clouds.jpg');
     background-repeat: 1-repeat;
     background-attachment: fixed;
 }  
 #q5 {
-    background-image: url('html.jpg');
+    background-image: url('images/html.jpg');
     background-repeat: 1-repeat;
     background-attachment: fixed;
 }
 #q6 {
-    background-image: url('table.jpg');
+    background-image: url('images/table.jpg');
     background-repeat: 1-repeat;
     background-attachment: fixed;
 }
 #q7 {
-    background-image: url('cssb.jpg');
+    background-image: url('images/cssb.jpg');
     background-repeat: 1-repeat;
     background-attachment: fixed;
 }
 #q8 {
-    background-image: url('cssp.jpg');
+    background-image: url('images/cssp.jpg');
     background-repeat: 1-repeat;
     background-attachment: fixed;
 }
 #q9 {
-    background-image: url('js1.jpg');
+    background-image: url('images/js1.jpg');
     background-repeat: 1-repeat;
     background-attachment: fixed;
 }
 #q10 {
-    background-image: url('js2.jpg');
+    background-image: url('images/js2.jpg');
     background-repeat: 1-repeat;
     background-attachment: fixed;
 }
 #fp {
-    background-image: url('balloons.gif');
+    background-image: url('images/balloons.gif');
     background-repeat: 1-repeat;
     background-attachment: fixed;
 }
