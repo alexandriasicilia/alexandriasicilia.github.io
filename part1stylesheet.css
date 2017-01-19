@@ -53,6 +53,11 @@
     background-repeat: 1-repeat;
     background-attachment: fixed;
 }
+#fl {
+    background-image: url('images/sadUni.gif');
+    background-repeat: 1-repeat;
+    background-attachment: fixed;
+}
 #h1 {
     text-align: center;
     color: #4B0082;
